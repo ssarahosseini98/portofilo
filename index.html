@@ -4,16 +4,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Seyedeh Sara Hosseini</title>
-  
+
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-  
+
   <style>
+    /* Reset and body */
+    * { margin: 0; padding: 0; box-sizing: border-box; }
     body {
       font-family: 'Inter', sans-serif;
       background-color: #f4f6f8;
       color: #222;
-      margin: 0;
       line-height: 1.6;
     }
 
@@ -23,15 +24,8 @@
       padding: 60px 20px;
       text-align: center;
     }
-    header h1 {
-      font-size: 2.8em;
-      margin: 0 0 10px 0;
-    }
-    header p {
-      font-size: 1.2em;
-      color: #ddd;
-      margin: 0;
-    }
+    header h1 { font-size: 2.8em; margin-bottom: 10px; }
+    header p { font-size: 1.2em; color: #ddd; }
 
     section {
       max-width: 900px;
@@ -47,21 +41,15 @@
       margin-bottom: 20px;
       color: #333;
     }
-    ul {
-      list-style: none;
-      padding: 0;
-    }
-    li {
-      margin-bottom: 12px;
-    }
+
+    ul { list-style: none; padding-left: 0; }
+    li { margin-bottom: 12px; }
     a {
       color: #4b6cb7;
       text-decoration: none;
       font-weight: 600;
     }
-    a:hover {
-      text-decoration: underline;
-    }
+    a:hover { text-decoration: underline; }
 
     footer {
       text-align: center;
@@ -74,26 +62,30 @@
 </head>
 <body>
 
+  <!-- Header -->
   <header>
     <h1>Seyedeh Sara Hosseini</h1>
     <p>Biomedical engineer exploring brain signals, AI, and physiological research</p>
   </header>
 
+  <!-- Résumé Section -->
   <section id="resume">
     <h2>Résumé</h2>
     <p>Click below to download my CV (PDF format, compatible with all systems)</p>
     <p><a href="CV.pdf" target="_blank">Download my CV</a></p>
   </section>
 
+  <!-- Publications Section -->
   <section id="publications">
     <h2>Publications</h2>
     <ul>
-      <li><a href="Publication1.pdf" target="_blank">Effects of Electrotherapy on Delayed Onset Muscle Soreness (DOMS)</a></li>
-      <li><a href="Publication2.pdf" target="_blank">Enhancing Anxiety Diagnosis Through ADA BOOST-Assisted Decision-Level Fusion</a></li>
-      <li><a href="Publication3.pdf" target="_blank">A Review on Deep Learning Techniques for Medical Image Segmentation and Classification</a></li>
+      <li><a href="Publications1.pdf" target="_blank">Effects of Electrotherapy on Delayed Onset Muscle Soreness (DOMS)</a></li>
+      <li><a href="Publications2.pdf" target="_blank">Enhancing Anxiety Diagnosis Through ADA BOOST-Assisted Decision-Level Fusion</a></li>
+      <li><a href="Publications3.pdf" target="_blank">A Review on Deep Learning Techniques for Medical Image Segmentation and Classification</a></li>
     </ul>
   </section>
 
+  <!-- Projects Section -->
   <section id="projects">
     <h2>Projects & Ideas</h2>
     <ul>
@@ -103,12 +95,14 @@
     </ul>
   </section>
 
+  <!-- Contact Section -->
   <section id="contact">
     <h2>Contact</h2>
     <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
     <p>Google Scholar: <a href="https://scholar.google.com/citations?user=4ubh8OkAAAAJ&hl=en" target="_blank">View citations</a></p>
   </section>
 
+  <!-- Footer -->
   <footer>
     © 2025 Seyedeh Sara Hosseini
   </footer>
